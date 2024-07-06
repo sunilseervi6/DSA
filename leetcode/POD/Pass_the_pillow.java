@@ -1,5 +1,5 @@
-public class Pass_the_pillow {
-    public int passThePillow(int n, int time) {
+class Pass_the_pillow {
+    public static int passThePillow(int n, int time) {
         int currentTime=0;
         int pillowPosition=1;
         boolean revDirection = false;
@@ -18,5 +18,8 @@ public class Pass_the_pillow {
         } 
         return pillowPosition;
         
+    }
+    public static void main(String args[]){
+        System.out.println(passThePillow(4,5));
     }
 }
