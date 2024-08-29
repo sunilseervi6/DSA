@@ -1,4 +1,4 @@
-//leetcode 3264
+//leetcode 3264.....brute force approach
 class Solution {
     public int[] getFinalState(int[] nums, int k, int multiplier) {
         for(int j=0 ; j<k ; j++){
