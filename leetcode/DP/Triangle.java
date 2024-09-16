@@ -1,4 +1,5 @@
 //leetcode 120
+//this problem cannot be solved by greedy approach so using dp bottom up approach to solve this
 class Solution {
     public int minimumTotal(List<List<Integer>> triangle) {
         int height =triangle.size();
